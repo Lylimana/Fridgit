@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 800px;
+  max-height: 800px;
+  object-fit: fill;
+  position: fixed;
+  left: 6%;
+  top: 30%;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.Fridgitcaption {
+  font-size: 30px;
+  position: fixed;
+  left: 9%;
+  top: 57%;
+}
+
+/* Add padding to containers */
+.container {
+  position: relative;
+  width: 830px;
+  height: 650px;
+  left: 52%;
+  top: 150px;
+  border: none;
+  box-shadow: 0 0 7px #cecece;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 3px;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: none;
+  margin-bottom: 30px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #ff0010;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 180px;
+  opacity: 0.9;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  font-size: 18px;
+}
+
+.registerbtn:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 7px #ff0010;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  text-align: left;
+  top: 70%;
+}
